@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  max-width: 600px;
+}
+
+.text h1 {
+  font-size: 2rem;
+  color: #d21e45;
+}
+
+.text ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.text a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer h2 {
+  color: #d21e45;
+  margin-bottom: 0.5rem;
+}
+
+.kw-logo {
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image img {
+    margin-top: 1rem;
+  }
+}
