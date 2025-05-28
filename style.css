@@ -8,10 +8,13 @@ body {
 /* ---------- TOP BANNER IMAGE ---------- */
 .top-banner img {
   width: 100%;
-  max-height: 500px;
-  object-fit: cover;
+  max-height: 400px;
+  object-fit: contain;
   display: block;
+  margin: 2rem 0;
+  border-radius: 10px;
 }
+
 
 /* ---------- HERO SECTION ---------- */
 .hero {
